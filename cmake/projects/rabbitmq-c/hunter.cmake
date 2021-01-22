@@ -88,3 +88,4 @@ hunter_cmake_args(
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_download(PACKAGE_NAME rabbitmq-c)
+hunter_cacheable(rabbitmq-c)
