@@ -14,4 +14,4 @@ hunter_add_package(rabbitmq-c)
 find_package(rabbitmq-c REQUIRED)
 
 add_executable(foo amq_bind.c utils.c)
-target_link_libraries(foo rabbitmq-c::rabbitmq-static)
+target_link_libraries(foo rabbitmq::rabbitmq-static)
