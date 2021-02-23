@@ -28,18 +28,6 @@ hunter_add_version(
     URL "https://github.com/facebook/rocksdb/archive/v5.14.2.tar.gz"
     SHA1 "376bc537e8c716111214274755f5fe4026e5a354")
 
-hunter_add_version(
-    PACKAGE_NAME rocksdb
-    VERSION 6.8.1
-    URL "https://github.com/facebook/rocksdb/archive/v6.8.1.tar.gz"
-    SHA1 "6407b34f69d5f41799086438aa76a710e42cd2c9")
-
-hunter_add_version(
-    PACKAGE_NAME rocksdb
-    VERSION 6.15.2
-    URL "https://github.com/facebook/rocksdb/archive/v6.15.2.tar.gz"
-    SHA1 "daf7ef3946fd39c910acaaa57789af8515b39251")
-
 
 if(MSVC)
     hunter_cmake_args(rocksdb CMAKE_ARGS
