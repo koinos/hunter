@@ -13,7 +13,7 @@ hunter_add_version(
    PACKAGE_NAME
    rabbitmq-c
    VERSION
-   "0.10.0-773b883-t1"
+   "0.10.0-773b883"
    URL
    "https://github.com/alanxz/rabbitmq-c/archive/773b883175ae50db024d59c7cce85c73e3f47e67.tar.gz"
    SHA1
